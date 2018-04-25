@@ -9,8 +9,8 @@
         android:id="@+id/takePicture"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="160dp"
         android:layout_weight="1"
         android:text="Capture Image"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,8 +18,8 @@
 
     <ImageView
         android:id="@+id/camDisplay"
-        android:layout_width="342dp"
-        android:layout_height="417dp"
+        android:layout_width="0dp"
+        android:layout_height="718dp"
         android:layout_marginBottom="14dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
@@ -29,5 +29,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/processimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="38dp"
+        android:text="Process"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
